@@ -30,10 +30,10 @@
 </template>
 
 <script setup lang=ts>
-import { onMounted, computed } from "vue"
+import { onMounted, computed } from 'vue'
 import { useProductStore } from '@/stores/products'
 import { useCartStore } from '@/stores/cart'
-import { formatCurrency } from "@/utils/currency"
+import { formatCurrency } from '@/utils/currency'
 
 // Access the stores
 const productStore = useProductStore();

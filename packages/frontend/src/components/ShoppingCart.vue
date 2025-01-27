@@ -65,9 +65,9 @@
 </template>
 
 <script setup lang=ts>
-import { onMounted, computed, ref } from "vue"
+import { onMounted, computed, ref } from 'vue'
 import { useCartStore } from '@/stores/cart'
-import { formatCurrency } from "@/utils/currency"
+import { formatCurrency } from '@/utils/currency'
 
 // Access the store
 const cartStore = useCartStore();

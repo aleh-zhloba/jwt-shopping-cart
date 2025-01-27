@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    container_name: shopping-cart
+    container_name: jwt-shopping-cart
     build:
       context: .
       dockerfile: Dockerfile
