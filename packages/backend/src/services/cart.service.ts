@@ -86,10 +86,10 @@ function buildSummary(cartData: CartData): CartSummary {
 
 function calculateDiscounts(subtotal: Decimal): Discount[] {
   const discounts: Discount[] = []
-  const awesomeAmountTreshhold = new Decimal(50)
+  const awesomeAmountThreshold = new Decimal(50)
   const discountAmount = new Decimal(25)
 
-  if (subtotal.greaterThanOrEqualTo(awesomeAmountTreshhold)) {
+  if (subtotal.greaterThanOrEqualTo(awesomeAmountThreshold)) {
     discounts.push({ title: 'Beer geek discount', amount: discountAmount.toDecimalPlaces(PRECISION).toString() })
   }
 
@@ -98,10 +98,10 @@ function calculateDiscounts(subtotal: Decimal): Discount[] {
 
 function calculateFees(subtotal: Decimal): Fee[] {
   const fees: Fee[] = []
-  const enoughtBeerTreshhold = new Decimal(30)
+  const enoughBeerThreshold = new Decimal(30)
 
-  if (subtotal.lessThan(enoughtBeerTreshhold)) {
-    fees.push({ title: 'Not enoght beer fee', amount: enoughtBeerTreshhold.minus(subtotal).toDecimalPlaces(PRECISION).toString() })
+  if (subtotal.lessThan(enoughBeerThreshold)) {
+    fees.push({ title: 'Not enough beer fee', amount: enoughBeerThreshold.minus(subtotal).toDecimalPlaces(PRECISION).toString() })
   }
 
   return fees
