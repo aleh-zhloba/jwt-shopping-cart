@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "Built To Spill",
+        "description": "IPA - Imperial / Double • Vermont",
+        "image": "/products/1.webp",
+        "vendor": "Foam",
+        "price": "10.99",
+        "currency": "EUR"
+    },
+    {
+        "id": "2",
+        "title": "Moralité",
+        "description": "IPA - American • Canada",
+        "image": "/products/2.webp",
+        "vendor": "Dieu du Ciel",
+        "price": "7.99",
+        "currency": "EUR"
+    },
+    {
+        "id": "3",
+        "title": "Oktoberfest",
+        "description": "Lager / Pilsner • Canada",
+        "image": "/products/3.webp",
+        "vendor": "Les Trois Mousquetaires",
+        "price": "6.29",
+        "currency": "EUR"
+    },
+    {
+        "id": "4",
+        "title": "Scanners",
+        "description": "IPA - Imperial / Double New England • New York",
+        "image": "/products/4.webp",
+        "vendor": "Root + Branch",
+        "price": "14.99",
+        "currency": "EUR"
+    },
+    {
+        "id": "5",
+        "title": "Crab Dust",
+        "description": "IPA - New England • New York",
+        "image": "/products/5.webp",
+        "vendor": "Other Half",
+        "price": "9.99",
+        "currency": "EUR"
+    },
+    {
+        "id": "6",
+        "title": "Hopster Haze",
+        "description": "IPA - New England • California",
+        "image": "/products/6.webp",
+        "vendor": "Sage",
+        "price": "12.49",
+        "currency": "EUR"
+    }
+]

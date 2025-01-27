@@ -1,0 +1,13 @@
+{
+    "name": "@jwt-shopping-cart/shared",
+    "version": "1.0.0",
+    "private": "true",
+    "main": "dist/types/index.d.ts",
+    "types": "dist/types/index.d.ts",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "build": "tsc --build"
+    }
+}
