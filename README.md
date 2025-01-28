@@ -1,6 +1,6 @@
 # JWT Shopping Cart
 
-This repository contains a showcase application designed to demonstrate the concept of database-less shopping carts using JSON Web Tokens (JWT). This implementation aligns with the ideas presented in [this Medium post](https://medium.com/@aleh.zhloba/database-less-shopping-carts-jwt-not-only-for-authentication-ec316b77641b).
+This repository contains a showcase application designed to demonstrate the concept of database-less shopping carts using JSON Web Tokens (JWT) described in [Database-Free Shopping Carts: JWT Beyond Auth](https://medium.com/gitconnected/database-free-shopping-carts-jwt-beyond-auth-ec316b77641b) Medium post.
 
 ## Overview
 
